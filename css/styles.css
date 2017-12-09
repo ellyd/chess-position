@@ -1,0 +1,111 @@
+.board {
+	width: 640px;
+	height: 640px;
+	margin: 0 auto;
+	background: url(../img/backg.jpeg) no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.chess-w,
+.chess-b {
+	width: 55px;
+	height: 55px;
+	display: inline-block;
+}
+
+.chess-w {
+	background: url(../img/oval.png) no-repeat;
+	background-color: #ffd3d5;
+	border: 1px solid #000;
+	background-position: center;
+	background-size: 60%;
+	border-radius: 50px;
+}
+
+.chess-b {
+	background: url(../img/oval2.png) no-repeat;
+	background-color: #561619;
+	border: 1px solid #fff;
+	background-position: center;
+	background-size: 60%;
+	border-radius: 50px;
+}
+
+.white {
+	position: relative; 
+}
+
+.black {
+	position: relative;
+}
+
+.left-1 {
+	position: absolute;
+	left: 38px;
+}
+
+.left-2 {
+	position: absolute;
+	left: 111px;
+}
+
+.left-3 {
+	position: absolute;
+	left: 182px;
+}
+
+.left-4 {
+	position: absolute;
+	left: 254px;
+}
+
+.left-5 {
+	position: absolute;
+	left: 326px;
+}
+
+.left-6 {
+	position: absolute;
+	left: 397px;
+}
+
+.left-7 {
+	position: absolute;
+	left: 469px;
+}
+
+.left-8 {
+	position: absolute;
+	left: 542px;
+}
+
+.top-1 {
+	position: absolute;
+	top: 39px;
+}
+
+.top-2 {
+	position: absolute;
+	top: 110px;
+}
+
+.top-3 {
+	position: absolute;
+	top: 182px;
+}
+
+.top-4 {
+	position: absolute;
+	top: 400px;
+}
+
+.top-5 {
+	position: absolute;
+	top: 470px;	
+}
+
+.top-6 {
+	position: absolute;
+	top: 542px;	
+}
